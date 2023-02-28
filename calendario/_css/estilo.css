@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Zeyada&display=swap');
+
+/* CSS DO CALENDÁRIO */
+/* Deixando o fundo (background) da tabela na cor preta */
+table {
+    background-color: black;
+    border: 1px solid;
+    border-color: gray;
+    font-family: 'Zeyada', cursive;
+    font-size: 50px;
+    text-align: center;
+}
+
+/* Deixando as informações de todas as tags
+th e td na cor branca */
+th, td {
+    color: white;
+    border-bottom: 1px solid;
+    border-color: gray;
+    width: 12%;
+}
+
+/* Deixando as informações de todas as 
+primeiras tags th e td na cor vermelha */
+td:nth-child(1), th:nth-child(1) {
+    color: red;
+}
+
+/* Deixando as informações de todas as 
+sétimas tags th e td na cor azul */
+td:nth-child(7), th:nth-child(7) {
+    color: blue;
+}
